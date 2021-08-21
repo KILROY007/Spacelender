@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css" integrity="sha512-y6ZMKFUQrn+UUEVoqYe8ApScqbjuhjqzTuwUMEGMDuhS2niI8KA3vhH2LenreqJXQS+iIXVTRL2iaNfJbDNA1Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>SpaceLender</title>
+</head>
+<body>
+    <div class="background h-screen w-screen" id="showcase">
+        <div class=" flex justify-between py-2">
+            <div class="flex ml-8 fixed left-0 z-10">
+                <img class="h-12" src="Img/logo.01908ff8.png">
+                <h1 class="text-white mt-2 ml-4 text-xl cursor-pointer">spacelender</h1>
+            </div>
+            <div class="flex mt-1 w-100 fixed right-0 z-10">
+                <div>
+                    <h1 class="text-white pink mx-16 font-bold  px-6 py-2 rounded text-center cursor-pointer">List Your Space</h1>
+                </div>
+                <a class="text-white mr-16 py-2" href="#Discover">Collections</a>
+                <a class="text-white mr-16 py-2 cursor-pointer">Contact</a>
+                <a class="text-white mr-8 py-2 cursor-pointer">Login</a>
+            </div>
+        </div>
+        <div class="bg-white flex p-2 w-min ml-8 rounded searchMarginTop" id="search">
+            <div class="flex" id="Occassion">
+                <div class="mr-20">
+                    <h1 class="text-gray-400 text-lg">OCCASSION</h1>
+                    <input type="text" class="outline-none placeholder-black text-base" placeholder="What kind of event?"> 
+                </div>
+                <h1 class="text-4xl text-gray-600">|</h1>           
+            </div>
+            <div class="flex ml-2" id="Location">
+                <div class="mr-20">
+                    <h1 class="text-gray-400 text-lg">LOCATION</h1>
+                    <input type="text" class="outline-none placeholder-black" placeholder="Where?">
+                </div>
+                <h1 class="text-4xl text-gray-600">|</h1>
+            </div>
+            <div class="ml-2 mr-20" id="Venue">
+                    <h1 class="text-gray-400 text-lg">VENUE</h1>
+                    <input type="text" class="outline-none placeholder-black " placeholder="Party or Conference">   
+            </div>
+            <div>
+                <a class="pink px-4 py-4 flex justify-center rounded" href>
+                    <i class="fas fa-search text-white"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="categories-container" class="m-9 pb-12">
+        <p class="text-3xl mt-3 ml-12 font-bold mb-4">Categories</p>
+        <div class=" h-96 px-6 grid grid-cols-3">
+            <div class="mx-6 h-10">
+                <img src="Img/categoryOccasion.png" class="category-img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded">
+                <h1 class="text-2xl font-bold my-2">Occassion</h1>
+            </div>
+            <div class="mx-6">
+                <img src="Img/categoryLocations.png" class="category-img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded">
+                <h1 class="text-2xl font-bold my-2">Location</h1>
+            </div>
+            <div class="mx-6 h">
+                <img src="Img/categoryVenue.png" class="category-img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded">
+                <h1 class="text-2xl font-bold my-2">Venue</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about-container" class=" flex h-screen">
+        <div>
+            <h1 class="text-3xl pt-6 ml-20 font-bold">About Us</h1>
+            <div class="flex flex-col  ml-20 mt-8 ">
+                <img src="./Img/about 1.png" alt="" srcset="" class="w-96 h-72 object-cover">
+                <img src="./Img/about 2.png" alt="" srcset="" class="w-96 h-72 object-cover mt-6">
+            </div>
+        </div>
+        <div class="py-6 mt-16">
+            <img src="./Img/about 3.png" alt="" srcset="" class=" object-cover ml-4 pt-1 h-full">
+        </div>
+        <div id="info" class="flex flex-col ml-12 mt-24 w-4/12">
+            <div class="mb-20">
+                <h1 class="text-2xl font-bold">Unique spaces</h1>
+                <p class="text-2xl">Every day we uncover new, creative spaces - from neighborhood galleries to hidden rooftops and beyond.</p>
+            </div>
+            <div class="mb-20">
+                <h1 class="text-2xl font-bold">Honest pricing</h1>
+                <p class="text-xl">
+                    Our spaces are priced to fit your budget. Pay by the hour without worrying about hidden fees.
+                </p>
+            </div>
+            <div class="mb-20">
+                <h1 class="text-2xl font-bold">Smooth bookings</h1>
+                <p class="text-xl">No more messy contracts. We build the tools to make booking a space as easy as the click of a button.</p>
+            </div>
+        </div>
+    </div>
+    <div id="Discover" class="">
+        <h1 class="text-3xl font-bold ml-20 mt-12">Discover</h1>
+        <div class="flex ml-20 mt-8 w-100 justify-around ml-20 mr-16 grid grid-cols-2 gap-8" id="slider">
+            <div class="slide active animate__animated animate__slideInRight" id="">
+                <img src="./Img/discover Conference.png" class="category-img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded ">
+                <h1 class="text-2xl font-bold mt-4">Locations</h1>
+            </div>
+            <div class="slide active animate__animated animate__slideInRight" id="">
+                <img src="./Img/discover Party.png" class="category-img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded ">
+                <h1 class="text-2xl font-bold mt-4">Party Collections</h1>
+            </div>
+            <div class="slide animate__animated animate__slideInRight" id="">
+                <img src="./Img/conference.jpg" class="category-img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded ">
+                <h1 class="text-2xl font-bold mt-4">Conference Collections</h1>
+            </div>
+            <div class="slide animate__animated animate__slideInRight" id="">
+                <img src="./Img/concert.jpg" class="category-img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded ">
+                <h1 class="text-2xl font-bold mt-4">Concert Collections</h1>
+            </div>
+            <div class="slide animate__animated animate__slideInRight" id="">
+                <img src="./Img/playground.jpg" class="category-img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded ">
+                <h1 class="text-2xl font-bold mt-4">Plyground Collections</h1>
+            </div>
+        </div>
+        <div id="slider-buttons" class="flex justify-center mb-8 mt-6">
+            <i class="fas fa-chevron-left hover:bg-gray-400 cursor-pointer" id="left"></i>
+            <i class="fas fa-chevron-right ml-2 hover:bg-gray-400 cursor-pointer" id="right"></i>
+        </div>
+    </div>
+    <footer class="pink">
+        <div class="flex-row text-center">
+            <h1 class="text-white pt-8">Let's Talk! contact@spacelender.com</h1>
+            <h1 class="text-black  cursor-pointer bg-white  rounded py-2 px-4 w-32 justify-center mx-auto mt-4" href="">Contact Us</h1>
+        </div>
+        <div class="flex-row text-center mt-2">
+            <i class="fab fa-instagram text-lg text-white mr-8"></i>
+            <i class="fab fa-facebook-f text-lg text-white mr-8"></i>
+            <i class="fab fa-twitter text-lg text-white"></i>
+        </div>
+        <div class="flex-row text-center mt-2">
+            <h1 class="text-white">© Copyrights All Rights Reserved</h1>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

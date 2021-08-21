@@ -1,0 +1,33 @@
+.pink{
+ background-color: #47143d;
+}
+
+.background{
+    background-image: url('./Img/1.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.category-img{
+    height:25vw;
+    object-fit: cover;
+    width: 100%;
+    min-width:200px;
+}
+
+#about-container{
+    background-color: #dfc8db;
+}
+
+.slide{
+    display:none;
+}
+
+.slide.active{
+    display:block;
+}
+
+.searchMarginTop{
+  margin-top:340px;
+}
